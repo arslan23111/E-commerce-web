@@ -1,0 +1,89 @@
+body {
+    background: #cefff9;
+}
+
+/* Container */
+.forgot-container {
+    width: 420px;
+    padding: 20px;
+    font-family: Arial;
+    margin: 123px auto;
+}
+
+/* Header */
+.forgot-header h4 {
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Divider full width */
+.fb-divider {
+    border-bottom: 1px solid #ddd;
+    margin: 15px -20px;
+}
+
+/* Input underline animation */
+.input-wrapper {
+    position: relative;
+}
+
+.input-line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background: #4a78ff;
+    transition: 0.3s ease;
+}
+
+/* Input field */
+.fb-input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background: transparent;
+}
+
+.fb-input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Activate underline on focus */
+.fb-input:focus+.input-line {
+    width: 100%;
+}
+
+/* Buttons */
+.btn-area {
+    margin-top: 15px;
+}
+
+.cancel {
+    background: #e4e6eb;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+}
+
+.search {
+    background: #1877f2;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Hover */
+.search:hover {
+    background: #166fe5;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    background: #d8dadf;
+    cursor: pointer;
+}
